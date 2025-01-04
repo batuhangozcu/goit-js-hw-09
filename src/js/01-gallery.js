@@ -93,7 +93,6 @@ gallery.addEventListener("click", (e) => {
   if (e.target.tagName !== "IMG") {
     return;
   }
-  const imageLink = e.target.getAttribute("data-source");
 });
 
 new SimpleLightbox(".gallery a", {
